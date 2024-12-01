@@ -1,6 +1,3 @@
 ## GAME PIANO
+Belajar
 
-<br>
-<h1 style="color:red;">
-belajar
-</h1>
