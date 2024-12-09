@@ -62,7 +62,6 @@ class Game {
         batas: false, // jika sudah mencapai batas bawah maka true
         stateClick: false, // state ketika sudah di click
       };
-
       this.blok.count++;
       payload_blok.id = this.blok.count;
       this.blok.box.push(payload_blok);
@@ -129,4 +128,4 @@ class Game {
 
 const game = new Game();
 
-game.start();
+// game.start();

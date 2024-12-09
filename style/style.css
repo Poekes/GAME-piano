@@ -1,7 +1,21 @@
 html{
   font-family: sans-serif;
-  height: 1500px;
 }
+
+
+
+.box-board-game{
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 140px;
+  height: 40px;
+  border:black 1px solid;
+}
+
+
+
 .container{
   display: flex;
   justify-content: center;
@@ -11,8 +25,8 @@ html{
 }
 .boxGame{
   border: 1px solid black;
-  width:300px;
-  height: 500px;
+  width:360px;
+  height: 600px;
   display: flex;
  overflow: hidden;
 }
